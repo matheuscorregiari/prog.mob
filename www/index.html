@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  
+  <!-- scripts-->
+  <script src="components/loader.js"></script>
+  <script src="components/acao.js"></script>
+
+  <!-- links-->
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+
+   
+</head>
+<body>
+  <div class="container">
+	  <div class="row">
+      <div class="col-sm-12">
+	      <div class="jumbotron">
+            <h2>CALCULADORA SIMPLES.</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>SOMA</h2>
+      </div>
+      <div class="col-sm-12">
+        <div class="form-group">
+          <label for="valor1">valor 1:</label>
+          <input type="number" class="form-control" id="soma-valor1">
+        </div>
+        <div class="form-group">
+          <label for="valor2">valor 2:</label>
+          <input type="number" class="form-control" id="soma-valor2">
+        </div>
+      </div>
+      <div class="col-sm-12">
+          <div class="btn btn-primary btn-block"  id="somar">somar</div>
+      </div>
+      <div class="col-sm-12">
+          <label for="resultado">resultado</label>
+          <input type="text" class="form-control" readonly  id="soma-resultado">
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>SUBTRAÇÃO</h2>
+      </div>
+      <div class="col-sm-12">
+        <div class="form-group">
+          <label for="valor1">valor 1:</label>
+          <input type="number" class="form-control" id="subtracao-valor1">
+        </div>
+        <div class="form-group">
+          <label for="valor2">valor 2:</label>
+          <input type="number" class="form-control" id="subtracao-valor2">
+        </div>
+      </div>
+      <div class="col-sm-12">
+          <div class="btn btn-primary btn-block" id="subtracao">subtrair</div>
+      </div>
+      <div class="col-sm-12">
+          <label for="resultado">resultado</label>
+          <input type="text" class="form-control" readonly  id="subtracao-resultado">
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>MULTIPLICAÇÃO</h2>
+      </div>
+      <div class="col-sm-12">
+        <div class="form-group">
+          <label for="valor1">valor 1:</label>
+          <input type="number" class="form-control" id="mult-valor1">
+        </div>
+        <div class="form-group">
+          <label for="valor2">valor 2:</label>
+          <input type="number" class="form-control" id="mult-valor2">
+        </div>
+      </div>
+      <div class="col-sm-12">
+          <div class="btn btn-primary btn-block"  id="mult">multiplicar</div>
+      </div>
+      <div class="col-sm-12">
+          <label for="resultado">resultado</label>
+          <input type="text" class="form-control" readonly  id="mult-resultado">
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>DIVISÃO</h2>
+      </div>
+      <div class="col-sm-12">
+        <div class="form-group">
+          <label for="valor1">valor 1:</label>
+          <input type="number" class="form-control" id="div-valor1">
+        </div>
+        <div class="form-group">
+          <label for="valor2">valor 2:</label>
+          <input type="number" class="form-control" id="div-valor2">
+        </div>
+      </div>
+      <div class="col-sm-12">
+          <div class="btn btn-primary btn-block"  id="div">dividir</div>
+      </div>
+      <div class="col-sm-12">
+          <label for="resultado">resultado</label>
+          <input type="text" class="form-control" readonly  id="div-resultado">
+    </div>
+    </div>
+    <br>
+</div>
+</body>
+</html>
